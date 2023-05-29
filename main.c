@@ -6,7 +6,6 @@ void saveStudent(struct Student *ptr)
    FILE  *fp = fopen("mystudent.txt", "w");
    printf("!\n");
 
-
    if(fp==NULL)
    {
 	  printf("open error\n");
